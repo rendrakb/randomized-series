@@ -29,7 +29,8 @@ table {
   border-collapse: collapse;
   width: 90vw;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
+  font-weight: bold;
   background: #2a2a2a;
   max-width: 500px;
 }
