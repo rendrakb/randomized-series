@@ -1,0 +1,59 @@
+[
+  {
+    "type": "addition",
+    "label": "Addition",
+    "value": { "min": 1, "max": 100 },
+    "start": { "min": -100, "max": 100 }
+  },
+  {
+    "type": "subtraction",
+    "label": "Subtraction",
+    "value": { "min": 1, "max": 100 },
+    "start": { "min": -100, "max": 100 }
+  },
+  {
+    "type": "multiplication",
+    "label": "Multiplication",
+    "value": { "min": 2, "max": 10 },
+    "start": { "min": -10, "max": 10 }
+  },
+  {
+    "type": "division",
+    "label": "Division",
+    "value": { "min": 2, "max": 10 },
+    "start": { "min": -10, "max": 10 }
+  },
+  {
+    "type": "alternating",
+    "label": "Alternating",
+    "pairs": [
+      ["addition", "subtraction"],
+      ["addition", "multiplication"],
+      ["subtraction", "multiplication"]
+    ],
+    "values": {
+      "addition": { "min": 1, "max": 100 },
+      "subtraction": { "min": 1, "max": 100 },
+      "multiplication": { "min": 2, "max": 10 }
+    },
+    "start": { "min": -50, "max": 50 }
+  },
+  {
+    "type": "squares",
+    "label": "Squares"
+  },
+  {
+    "type": "meta",
+    "label": "Meta series",
+    "firstDiff": { "min": 1, "max": 10 },
+    "diffChange": { "min": 1, "max": 5 },
+    "start": { "min": -100, "max": 100 }
+  },
+  {
+    "type": "metaAlternating",
+    "label": "Meta alternating series",
+    "firstDiff": { "min": 1, "max": 10 },
+    "diffChange": { "min": 1, "max": 5 },
+    "start": { "min": -100, "max": 100 }
+  }
+]
